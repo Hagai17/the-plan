@@ -3,9 +3,10 @@
 A program that writes one plan to `/output/entry.txt`: a plan an AI agent can
 carry out itself to turn $100 into the most money in 30 days — selling an AI
 phone receptionist to small local businesses, for a setup fee plus a monthly
-retainer. The plan names the service, the buyers, where to find them, the
-price, the day-one action, and the expected day-30 total, in 280 characters
-or fewer. `main.ts` self-checks that gate before writing.
+retainer. The plan names the service, the buyers, what the $100 buys, the
+price, the day-one action, and the expected day-30 total, in 280 code points
+or fewer. `main.ts` self-checks that gate before writing, then reads the file
+back and recounts to confirm it.
 
 ## Run it
 
